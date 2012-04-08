@@ -1,0 +1,18 @@
+# JQuery-SimpleInputLabel
+
+One idea to avoid wasting screen space with labels is put the label as the initial text of a input.
+
+# How it works
+
+This plugin do this thing with some tricks when the input receive and lost focus:
+
+* When the input receive focus: empty the text of the input if the text is the initial text.
+* When the input lost focus: the value of the input is set to the initial if the current text is blank
+
+# Example of usage
+
+```html
+$('#my_input').InputLabel({text: 'Some text here'});
+$('#my_login_input').InputLabel({text: 'Username'});
+$('.input_invitation').InputLabel({text: 'E-mails separated by comma'});
+```

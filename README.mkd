@@ -2,6 +2,9 @@
 
 One idea to avoid wasting screen space with labels is put the label as the initial text of a input.
 
+* <http://archive.plugins.jquery.com/project/SimpleInputLabel>
+* Latest Release: 0.1.0
+
 # How it works
 
 This plugin do this thing with some tricks when the input receive and lost focus:
